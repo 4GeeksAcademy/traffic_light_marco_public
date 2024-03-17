@@ -10,3 +10,49 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.lightcontainer {
+    width: 100px;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  /* Light Bulb Base Style */
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  /* Red Light Style */
+  .red {
+    background-color: red;
+  }
+  
+  /* Yellow Light Style */
+  .yellow {
+    background-color: yellow;
+  }
+  
+  /* Green Light Style */
+  .green {
+    background-color: green;
+  }
+
+  .redshadow {
+    box-shadow: 10px 10px 95px 0px rgba(245,10,68,1);
+  };
+
+  .yellowshadow {
+    box-shadow: 10px 10px 95px 0px rgba(245,214,12,1);
+  }
+
+  .greenshadow {
+    box-shadow: 10px 10px 95px 0px rgba(24,245,12,1);
+  };
+
