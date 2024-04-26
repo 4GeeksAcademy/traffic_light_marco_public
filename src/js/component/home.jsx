@@ -30,7 +30,6 @@ const Home = () => {
         </div>
         <div className={`light ${colors3 ? "green" : "greenshadow"}`} onClick={() => toggleColor3()}>
         </div>
-        <button >Cycle!</button>
       </div>
       
     </div>

@@ -22,24 +22,20 @@
     padding: 10px;
   }
   
-  /* Light Bulb Base Style */
   .light {
     width: 80px;
     height: 80px;
     border-radius: 50%;
   }
   
-  /* Red Light Style */
   .red {
     background-color: red;
   }
   
-  /* Yellow Light Style */
   .yellow {
     background-color: yellow;
   }
   
-  /* Green Light Style */
   .green {
     background-color: green;
   }
